@@ -7,9 +7,9 @@ from typing import Optional
 from telegram import User, Chat, ChatMember, Update, Bot
 from telegram import error
 
-from emilia import DEL_CMDS, SUDO_USERS, WHITELIST_USERS
+from haruka import DEL_CMDS, SUDO_USERS, WHITELIST_USERS
 
-from emilia.modules import languages
+from haruka.modules import languages
 
 
 def can_delete(chat: Chat, bot_id: int) -> bool:
