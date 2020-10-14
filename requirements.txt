@@ -12,4 +12,3 @@ kbbi
 Pillow
 alphabet_detector
 urbandict
-speedtest-cli
